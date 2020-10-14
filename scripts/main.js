@@ -115,6 +115,6 @@ allClearButtons.addEventListener('click', button=>{
 })
 
 deleteButtons.addEventListener('click', button=>{
-    calculator.clear()
+    calculator.delete()
     calculator.updateDisplay()
 })
